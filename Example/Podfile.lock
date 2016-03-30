@@ -1,0 +1,14 @@
+PODS:
+  - LGBCategory (0.1.0)
+
+DEPENDENCIES:
+  - LGBCategory (from `../`)
+
+EXTERNAL SOURCES:
+  LGBCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBCategory: ff5bf621770f0c200d6846dab4d916aaffe33c80
+
+COCOAPODS: 0.39.0

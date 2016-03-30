@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C93355D1CABD2200058DC7E /* LGBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93355C1CABD2200058DC7E /* LGBModel.m */; };
+		2C9335601CABD25D0058DC7E /* LGBSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93355F1CABD25D0058DC7E /* LGBSubModel.m */; };
 		3DD5671B38076B097D5F8F42 /* Pods_LGBCategory_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A835B4E7A9FB8EBFFDC848A /* Pods_LGBCategory_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 
 /* Begin PBXFileReference section */
 		0D78D7F2C3C6A1481DB33050 /* LGBCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBCategory.podspec; path = ../LGBCategory.podspec; sourceTree = "<group>"; };
+		2C93355B1CABD2200058DC7E /* LGBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBModel.h; sourceTree = "<group>"; };
+		2C93355C1CABD2200058DC7E /* LGBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBModel.m; sourceTree = "<group>"; };
+		2C93355E1CABD25D0058DC7E /* LGBSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBSubModel.h; sourceTree = "<group>"; };
+		2C93355F1CABD25D0058DC7E /* LGBSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBSubModel.m; sourceTree = "<group>"; };
 		3552D489BEB86FE8F8643DCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F268D1C99FAADDCDCF57636 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4A835B4E7A9FB8EBFFDC848A /* Pods_LGBCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +143,10 @@
 				6003F5A6195388D20070C39A /* LGBViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				2C93355B1CABD2200058DC7E /* LGBModel.h */,
+				2C93355C1CABD2200058DC7E /* LGBModel.m */,
+				2C93355E1CABD25D0058DC7E /* LGBSubModel.h */,
+				2C93355F1CABD25D0058DC7E /* LGBSubModel.m */,
 			);
 			name = "Example for LGBCategory";
 			path = LGBCategory;
@@ -391,8 +401,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */,
+				2C9335601CABD25D0058DC7E /* LGBSubModel.m in Sources */,
 				6003F5A7195388D20070C39A /* LGBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2C93355D1CABD2200058DC7E /* LGBModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
