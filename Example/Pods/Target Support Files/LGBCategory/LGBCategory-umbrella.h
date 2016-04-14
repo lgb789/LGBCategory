@@ -5,6 +5,7 @@
 #import "NSObject+lgb_ToDictionary.h"
 #import "NSString+lgb_MD5.h"
 #import "NSString+lgb_Path.h"
+#import "UIView+lgb_layout.h"
 
 FOUNDATION_EXPORT double LGBCategoryVersionNumber;
 FOUNDATION_EXPORT const unsigned char LGBCategoryVersionString[];
